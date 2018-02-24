@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Glide Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="top"></div>
+		<div class="container">
+			<h1>Final Glide Calculator</h1>
+		<div id="list">
+			<h4>Choose glider type</h4> <!--Input for glider type-->
+			<select id="listGliders">
+			  <option value="jantarStandard2">Jantar Standard 2</option>
+			  <option value="duoDiscus">Duo Discus</option>
+			  <option value="ask21">ASK 21</option>
+			  <option value="pilatusB4">Pilatus B4</option>
+			  <option value="asw15">ASW 15</option>
+			  <option value="asw19">ASW 19</option>
+			  <option value="asw20">ASW 20</option>
+			  <option value="dg600">DG600</option>
+			  <option value="pik20">Pik 20</option>
+			  <option value="k6">Ka 6</option>
+			  <option value="bergfalke2">Bergfalke II</option>
+			  <option value="sg38">SG 38</option>
+			</select>
+				
+
+				<div class="slidecontainer"> 
+					<h4>Choose height</h4> <!--Input for height-->
+						<form oninput="heightOutput.value=parseInt(heightSlider.value)">
+						 	 0<input type="range" min="0" max="3000" value="1500" class="slider" id="heightSlider">3000m <br>
+							<output name="heightOutput" for="heightSlider">1500</output>m
+						</form> <br>
+
+					<h4>Choose distance</h4> <!--Input for distance-->
+						<form oninput="distanceOutput.value=parseInt(distanceSlider.value)">
+						 	 0<input type="range" min="0" max="200" value="100" class="slider" id="distanceSlider">200km <br>
+							<output name="distanceOutput" for="distanceSlider">100</output>km
+						</form> <br>
+				</div>
+			<button type="button" class="button">Calculate</button>
+			
+			<h5>Homecoming height:</h5>
+
+					<div id="output">
+						<h4>100m</h4>
+					</div>
+		</div>
+
+
+</div>
+</body>
+</html>
