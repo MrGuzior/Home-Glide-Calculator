@@ -1,36 +1,25 @@
-/*function glideR(distance, height, modell){
-		let glideRacio = modell * height;
-		
+										/////////////////////////////
+										//////////MrGuzior///////////
+										///////////2018//////////////
 
-		if (glideRacio>= distance) {
-			console.log("Go home!");
-					}
-		else if (glideRacio< distance) {
-			console.log("No Home!");
-		}
-}
-glideR(79, 2, 40);
-*/
+										
 										// Getting the information
 		let glideRacio = 0;
 
 		function changeGlider(event){
 			glideRacio=event.value;
-			console.log(glideRacio);
 		}
 
 		let glideHeight = 0;
 
 		function heightGlider(event){
 			glideHeight=event.value;
-			console.log(glideHeight);
 		}
 
 		let glideDistance = 0;
 
 		function distanceGlider(event){
 			glideDistance=event.value;
-			console.log(glideDistance);
 		}
 										//Calculating information
 
@@ -44,10 +33,9 @@ glideR(79, 2, 40);
 			homeHeight = 0;
 			homeHeight = glideDistance / glideRacio;
 			homeHeight = glideHeight-(homeHeight * 1000);
-			console.log(homeHeight.toFixed(0)+"m");
 			return homeHeight.toFixed(0)+"m";
 		}
-
+										//Showing results
 		function result(){
 		let result = document.getElementById("result")
 		result.innerHTML = homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight);
