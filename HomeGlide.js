@@ -35,25 +35,20 @@ glideR(79, 2, 40);
 										//Calculating information
 
 		let homeHeight = 0;
+		glideRacio = 38;
+		glideHeight = 1500;
+		glideDistance =100;
 
-		function homeComing(glideRacio, glideHeight, glideDistance){
+
+		function homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight){
 			homeHeight = 0;
-			homeHeight = glideRacio*(glideHeight/1000);
-			if(homeHeight > glideDistance){
-				homeHeight = glideDistance - homeHeight;
-				homeHeight = homeHeight * 100;
-				console.log("You will make it! "+ homeHeight.toFixed(0)+"m");
-				return homeHeight.toFixed(0)+"m";
-			}
-			else{
-				homeHeight = homeHeight - glideDistance;
-				homeHeight = (homeHeight * 100) * -1;
-			console.log("Not enough height! " + homeHeight.toFixed(0)+"m");
+			homeHeight = glideDistance / glideRacio;
+			homeHeight = glideHeight-(homeHeight * 1000);
+			console.log(homeHeight.toFixed(0)+"m");
 			return homeHeight.toFixed(0)+"m";
 		}
-		}
 
-		function changeResult(homeComing){
-			var result = document.getElementById("result");
-			result.innerHTML = homeComing()
+		function result(){
+		let result = document.getElementById("result")
+		result.innerHTML = homeComing();
 		}

@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-	height:600px;
+	height:550px;
 	width:500px;
 	background-color:#CEF6E3;
 	margin:auto;
@@ -82,18 +82,17 @@ body{
 	margin:auto;
 	height:50px;
 	width:40%;
-	background-color: #fff;
-	border-radius:5px;
-	padding: 10px 10px;
-	margin-top: -10px;
+	background-color: #d3d3d3;
+	color:#000;
+	font-family: Arial;
+	font-size:20px;
+	text-align: center;
+	border-radius: 5px;
+	border:#4CAF50 1px solid;
 
 }
 
 .output h4{
-	text-align: center;
-	color:#000;
-	font-family: Arial;
-	font-size: 20px;
 	margin:13px 5px 10px 5px;
 
 }
