@@ -50,5 +50,5 @@ glideR(79, 2, 40);
 
 		function result(){
 		let result = document.getElementById("result")
-		result.innerHTML = homeComing();
+		result.innerHTML = homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight);
 		}
