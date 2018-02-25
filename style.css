@@ -23,7 +23,7 @@ body:after{
 }
 
 .container{
-	height:550px;
+	height:800px;
 	width:500px;
 	background-color:#CEF6E3;
 	margin:auto;
@@ -51,7 +51,7 @@ body:after{
     width: 80%;
     height: 15px;
     border-radius: 5px;   
-    background: #d3d3d3;
+    background: #fff;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;

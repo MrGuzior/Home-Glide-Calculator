@@ -12,30 +12,43 @@
 		<div id="list">
 			<h4>Choose glider type</h4> <!--Input for glider type-->
 			<select id="glidersList" name="glidersList" onchange="changeGlider(this), result()">
-			  <option value="38">Jantar Standard 2</option>
-			  <option value="45">Duo Discus</option>
-			  <option value="33">ASK 21</option>
-			  <option value="32">Pilatus B4</option>
-			  <option value="36">ASW 15</option>
-			  <option value="39">ASW 19</option>
-			  <option value="40">ASW 20</option>
-			  <option value="42">DG600</option>
-			  <option value="37">Pik 20</option>
-			  <option value="23">Ka 6</option>
-			  <option value="26">Bergfalke II</option>
-			  <option value="16">SG 38</option>
+			  <option id="jantarStandard2" value="39">Jantar Standard 2</option>
+			  <option id="duoDiscus" value="45">Duo Discus</option>
+			  <option id="ask21" value="33">ASK 21</option>
+			  <option id="pilatusB4" value="32">Pilatus B4</option>
+			  <option id="ls4" value="38">LS4</option>
+			  <option id="asw15" value="36">ASW 15</option>
+			  <option id="asw19" value="39">ASW 19</option>
+			  <option id="asw20" value="40">ASW 20</option>
+			  <option id="dg600" value="42">DG600</option>
+			  <option id="pik20" value="37">Pik 20</option>
+			  <option id="ka6" value="23">Ka 6</option>
+			  <option id="bergfalke2" value="26">Bergfalke II</option>
+			  <option id="sg38" value="16">SG 38</option>
 			</select>
 				<div class="slidecontainer"> 
 					<h4>Choose height</h4> <!--Input for height-->
 						<form oninput="heightOutput.value=parseInt(heightSlider.value)">
-						 	 0<input  onchange="heightGlider(this), result()" type="range" min="0" max="3000" value="1500" class="slider" id="heightSlider">3000m <br>
+						     	 0<input  onchange="heightGlider(this), result()" type="range" min="0" max="3000" value="" class="slider" id="heightSlider">3000m <br>
 							<output name="heightOutput" id="heightOutput" for="heightSlider">1500</output>m
 						</form> <br>
 
 					<h4>Choose distance</h4> <!--Input for distance-->
 						<form oninput="distanceOutput.value=parseInt(distanceSlider.value)">
-						 	 0<input  onchange="distanceGlider(this), result()" type="range" min="0" max="100" value="50" class="slider" id="distanceSlider">100km <br>
+						 	  0<input  onchange="distanceGlider(this), result()" type="range" min="0" max="100" value="" class="slider" id="distanceSlider">100km <br>
 							<output name="distanceOutput" for="distanceSlider">50</output>km
+						</form> <br>
+
+					<h4>Choose speed</h4> <!--Input for speed-->
+						<form oninput="speedOutput.value=parseInt(speedSlider.value)">
+						 	0<input  onchange="speedGlider(this), result()" type="range" min="0" max="200" value="50" class="slider" id="speedSlider">200km/h<br>
+							<output name="speedOutput" for="speedSlider">100</output>km/h
+						</form> <br>
+
+					<h4>Choose wind speed</h4> <!--Input for wind-->
+						<form oninput="windOutput.value=parseInt(windSlider.value)">
+						 	 0<input  onchange="windGlider(this), result()" type="range" min="-30" max="30" value="" class="slider" id="windSlider">30m/s <br>
+							<output name="windOutput" for="windSlider">0</output>m/s
 						</form> <br>
 				</div>
 			<h5>Homecoming height:</h5>
