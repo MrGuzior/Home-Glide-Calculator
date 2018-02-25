@@ -1,4 +1,4 @@
-function glideR(distance, height, modell){
+/*function glideR(distance, height, modell){
 		let glideRacio = modell * height;
 		
 
@@ -11,5 +11,13 @@ function glideR(distance, height, modell){
 }
 glideR(79, 2, 40);
 
-
-
+		function changeGlider(x){
+			var glideRacio=return(x.value);
+			console.log(glideRacio);
+		}
+*/
+		function changeGlider(x){
+			console.log(x.value);
+			return (x.value);
+		}
+		let glideRacio = changeGlider(x);
