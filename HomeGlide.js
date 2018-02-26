@@ -36,7 +36,31 @@ import * from "gliderlist.js";
 			glideWind=event.value;
 		}
 
+													//Returning Values
 
+		function heightGliderReturn(event){
+			glideHeightReturn=event.value;
+		}
+
+
+
+		function distanceGliderReturn(event){
+			glideDistanceReturn=event.value;
+		}
+
+
+
+		function speedGliderReturn(event){
+			glideSpeedReturn=event.value;
+		}
+
+
+
+		function windGliderReturn(event){
+			glideWindReturn=event.value;
+		}
+
+///
 										//Calculating information
 
 		let homeHeight = 0;
