@@ -11,22 +11,30 @@ body{
 	margin:auto;
 	text-align: center;
 	background-color: #A9F5F2;
-	font-family: Arial, Helvetica;
+	font-family:Lucida Console, Arial, Helvetica;
+}
+
+body:after{
+	content: "";
+  	background: url(backgroundGlider.png);
+  	opacity: 0.6;
+  	top: 0;
+  	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+  	position: absolute;
+  	z-index: -1;
 }
 
 .container{
-<<<<<<< HEAD
 	height:auto;
 	width:480px;
-=======
->>>>>>> parent of 5c263cb... 1.2.2.2
-	height:550px;
-	width:500px;
 	background-color:#CEF6E3;
 	margin:auto;
 	padding:20px 10px 20px 10px;
 	border:#4CAF50 3px solid;
 	border-radius: 15px;
+	box-shadow:3px 3px 5px #585858;
 }
 
 #list{
@@ -39,12 +47,12 @@ body{
 
 #glidersList{
     width: 70%;
+    height:50px;
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #d3d3d3;
+    background-color: #fff;
     border:#4CAF50 1px solid;
-<<<<<<< HEAD
     box-shadow:3px 3px 5px #585858;
     font-family:Lucida Console, Arial, Helvetica;
     font-size:17px;
@@ -53,8 +61,6 @@ body{
 
 .slidecontainer{
 	margin:5px 2px 5px 18px;
-=======
->>>>>>> parent of acb33fa... 1.1.2
 }
 
 .slider {
@@ -62,11 +68,13 @@ body{
     width: 80%;
     height: 15px;
     border-radius: 5px;   
-    background: #d3d3d3;
+    background: #fff;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    box-shadow:3px 3px 5px #585858;
+    margin:5px 5px;
 }
 
 .slider::-webkit-slider-thumb {
@@ -96,30 +104,18 @@ body{
 	color:#000;
 	
 }
-
-.button{
-	background-color:#4CAF50;
-	color: #000;
-	padding: 10px 30px;
-	font-size: 26px;
-	border:none;
-	margin:5px 10px -10px 10px;
-	border-radius:5px;
-
-
-}
-
 .output{
 	margin:auto;
 	height:50px;
 	width:40%;
-	background-color: #d3d3d3;
+	background-color: #fff;
 	color:#000;
 	font-family: Arial;
 	font-size:20px;
 	text-align: center;
 	border-radius: 5px;
 	border:#4CAF50 1px solid;
+	box-shadow:3px 3px 5px #585858;
 
 }
 
