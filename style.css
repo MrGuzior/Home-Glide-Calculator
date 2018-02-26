@@ -15,8 +15,11 @@ body{
 }
 
 .container{
+<<<<<<< HEAD
 	height:auto;
 	width:480px;
+=======
+>>>>>>> parent of 5c263cb... 1.2.2.2
 	height:550px;
 	width:500px;
 	background-color:#CEF6E3;

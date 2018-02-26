@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*function glideR(distance, height, modell){
 		let glideRacio = modell * height;
 		
@@ -15,11 +16,22 @@ glideR(79, 2, 40);
 import * from "gliderlist.js";
 
 		let glideRatio = 0;
+=======
+										/////////////////////////////
+										//////////MrGuzior///////////
+										///////////2018//////////////
+
+										
+										// Getting the information
+>>>>>>> parent of 5c263cb... 1.2.2.2
 		let glideRacio = 0;
 
 		function changeGlider(event){
 			glideRacio=event.value;
+<<<<<<< HEAD
 			console.log(glideRacio);
+=======
+>>>>>>> parent of 5c263cb... 1.2.2.2
 		}
 
 		let glideHeight = 0;
@@ -35,6 +47,7 @@ import * from "gliderlist.js";
 			glideDistance=event.value;
 			console.log(glideDistance);
 		}
+<<<<<<< HEAD
 
 		let glideSpeed = 0;
 
@@ -73,6 +86,8 @@ import * from "gliderlist.js";
 		}
 
 ///
+=======
+>>>>>>> parent of 5c263cb... 1.2.2.2
 										//Calculating information
 
 		let homeHeight = 0;
@@ -88,6 +103,7 @@ import * from "gliderlist.js";
 			console.log(homeHeight.toFixed(0)+"m");
 			return homeHeight.toFixed(0)+"m";
 		}
+<<<<<<< HEAD
 
 		function result(){
 		let result = document.getElementById("result")
@@ -95,3 +111,10 @@ import * from "gliderlist.js";
 		}
 		result.innerHTML = homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight);
 		}
+=======
+										//Showing results
+		function result(){
+		let result = document.getElementById("result")
+		result.innerHTML = homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight);
+		}
+>>>>>>> parent of 5c263cb... 1.2.2.2
