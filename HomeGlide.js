@@ -2,14 +2,15 @@
 										//////////MrGuzior///////////
 										///////////2018//////////////
 
-
+										
 										// Getting the information
 import * from "gliderlist.js";
 
 		let glideRatio = 0;
+		let glideRacio = 0;
 
 		function changeGlider(event){
-			glideRatio=event.value;
+			glideRacio=event.value;
 		}
 
 		let glideHeight = 0;
@@ -64,19 +65,21 @@ import * from "gliderlist.js";
 										//Calculating information
 
 		let homeHeight = 0;
-		glideRatio = 38;
+		glideRacio = 38;
 		glideHeight = 1500;
 		glideDistance =100;
 
 
-		function homeComing(glideRatio, glideHeight, glideDistance, result, homeHeight){
+		function homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight){
 			homeHeight = 0;
-			homeHeight = glideDistance / glideRatio;
+			homeHeight = glideDistance / glideRacio;
 			homeHeight = glideHeight-(homeHeight * 1000);
 			return homeHeight.toFixed(0)+"m";
 		}
-										//Showing the results
+										//Showing results
 		function result(){
 		let result = document.getElementById("result")
 		result.innerHTML = homeComing(glideRatio, glideHeight, glideDistance, result, homeHeight);
+		}
+		result.innerHTML = homeComing(glideRacio, glideHeight, glideDistance, result, homeHeight);
 		}
