@@ -1,3 +1,7 @@
+*{
+	margin:0;
+	padding:0;
+}
 #top{
 	height:100px;
 }
@@ -23,15 +27,23 @@ body:after{
 }
 
 .container{
-	height:800px;
-	width:500px;
+	height:auto;
+	width:480px;
 	background-color:#CEF6E3;
 	margin:auto;
+	padding:20px 10px 20px 10px;
 	border:#4CAF50 3px solid;
 	border-radius: 15px;
 	box-shadow:3px 3px 5px #585858;
 }
 
+#list{
+	padding:10px;
+}
+
+#chooseGlider{
+	padding:5px;
+}
 
 #glidersList{
     width: 70%;
@@ -44,6 +56,11 @@ body:after{
     box-shadow:3px 3px 5px #585858;
     font-family:Lucida Console, Arial, Helvetica;
     font-size:17px;
+    margin-bottom: 10px;
+}
+
+.slidecontainer{
+	margin:5px 2px 5px 18px;
 }
 
 .slider {
