@@ -11,10 +11,10 @@ body{
 	margin:auto;
 	text-align: center;
 	background-color: #A9F5F2;
-	font-family:Lucida Console, Arial, Helvetica;
+	font-family: Arial, Helvetica;
 }
 
-body:after{
+body::after{
 	content: "";
   	background: url(backgroundGlider.png);
   	opacity: 0.6;
@@ -36,7 +36,6 @@ body:after{
 	padding:20px 10px 20px 10px;
 	border:#4CAF50 3px solid;
 	border-radius: 15px;
-	box-shadow:3px 3px 5px #585858;
 }
 
 #list{
@@ -49,12 +48,12 @@ body:after{
 
 #glidersList{
     width: 70%;
-    height:50px;
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
     background-color: #fff;
     border:#4CAF50 1px solid;
+<<<<<<< HEAD
     box-shadow:3px 3px 5px #585858;
     font-family:Lucida Console, Arial, Helvetica;
     font-size:17px;
@@ -63,6 +62,8 @@ body:after{
 
 .slidecontainer{
 	margin:5px 2px 5px 18px;
+=======
+>>>>>>> parent of acb33fa... 1.1.2
 }
 
 .slider {
@@ -75,8 +76,6 @@ body:after{
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
-    box-shadow:3px 3px 5px #585858;
-    margin:5px 5px;
 }
 
 .slider::-webkit-slider-thumb {
@@ -117,7 +116,6 @@ body:after{
 	text-align: center;
 	border-radius: 5px;
 	border:#4CAF50 1px solid;
-	box-shadow:3px 3px 5px #585858;
 
 }
 
