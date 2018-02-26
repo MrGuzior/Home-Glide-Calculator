@@ -61,8 +61,8 @@ import * from "gliderlist.js";
 			glideWind=event.value;
 		}
 
-													//Returning Values
 
+<<<<<<< HEAD
 		function heightGliderReturn(event){
 			glideHeightReturn=event.value;
 		}
@@ -88,6 +88,8 @@ import * from "gliderlist.js";
 ///
 =======
 >>>>>>> parent of 5c263cb... 1.2.2.2
+=======
+>>>>>>> parent of 66a6c2a... 1.2.3.3
 										//Calculating information
 
 		let homeHeight = 0;
