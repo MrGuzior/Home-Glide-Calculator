@@ -31,25 +31,25 @@
 					<h4>Choose height</h4> <!--Input for height-->
 						<form oninput="heightOutput.value=parseInt(heightSlider.value)">
 						     	 0<input  onchange="heightGlider(this), result()" type="range" min="0" max="3000" value="" class="slider" id="heightSlider">3000m <br>
-							<input id="heightOutput" type="number" name="heightOutput" for="heightGlider" oninput="heightSlider.value=parseInt(heightOutput.value)" min="0" max="3000" value="1500">
+							<input class="outputWindow" id="heightOutput" type="number" name="heightOutput" for="heightGlider" oninput="heightSlider.value=parseInt(heightOutput.value)" min="0" max="3000" value="1500">
 						</form> <br>
 
 					<h4>Choose distance</h4> <!--Input for distance-->
 						<form oninput="distanceOutput.value=parseInt(distanceSlider.value)">
 						 	  0<input  onchange="distanceGlider(this), result()" type="range" min="0" max="100" value="" class="slider" id="distanceSlider">100km <br>
-							<input id="distanceOutput" type="number" name="distanceOutput" for="distanceGlider" oninput="distanceSlider.value=parseInt(distanceOutput.value)" min="0" max="100" value="50">
+							<input class="outputWindow" id="distanceOutput" type="number" name="distanceOutput" for="distanceGlider" oninput="distanceSlider.value=parseInt(distanceOutput.value)" min="0" max="100" value="50">
 						</form> <br>
 
 					<h4>Choose speed</h4> <!--Input for speed-->
 						<form oninput="speedOutput.value=parseInt(speedSlider.value)">
 						 	0<input  onchange="speedGlider(this), result()" type="range" min="0" max="200" value="" class="slider" id="speedSlider">200km/h<br>
-							<input id="speedOutput" type="number" name="speedOutput" for="speedGlider" oninput="speedSlider.value=parseInt(speedOutput.value)" min="0" max="200" value="100">
+							<input class="outputWindow" id="speedOutput" type="number" name="speedOutput" for="speedGlider" oninput="speedSlider.value=parseInt(speedOutput.value)" min="0" max="200" value="100">
 						</form> <br>
 
 					<h4>Choose wind speed</h4> <!--Input for wind-->
 						<form oninput="windOutput.value=parseInt(windSlider.value)">
 						 	 0<input  onchange="windGlider(this), result()" type="range" min="-30" max="30" value="" class="slider" id="windSlider">30m/s <br>
-							<input id="windOutput" type="number" name="windOutput" for="windGlider" oninput="windSlider.value=parseInt(windOutput.value)" min="0" max="30" value="0">
+							<input class="outputWindow" id="windOutput" type="number" name="windOutput" for="windGlider" oninput="windSlider.value=parseInt(windOutput.value)" min="0" max="30" value="0">
 						</form> <br>
 		</div>
 			<h5>Homecoming height:</h5>

@@ -28,7 +28,7 @@ body:after{
 
 .container{
 	height:auto;
-	width:480px;
+	width:500px;
 	background-color:#CEF6E3;
 	margin:auto;
 	padding:20px 10px 20px 10px;
@@ -67,7 +67,7 @@ body:after{
     -webkit-appearance: none;
     width: 80%;
     height: 15px;
-    border-radius: 5px;   
+    border-radius: 30px;   
     background: #fff;
     outline: none;
     opacity: 0.7;
@@ -75,6 +75,7 @@ body:after{
     transition: opacity .2s;
     box-shadow:3px 3px 5px #585858;
     margin:5px 5px;
+    border:#4CAF50 1px solid;
 }
 
 .slider::-webkit-slider-thumb {
@@ -95,15 +96,13 @@ body:after{
     cursor: pointer;
 }
 
-#heightOutput{
-	color:#000;
-
+.outputWindow{
+	margin:2px;
+	border-radius: 5px;
+	border:#4CAF50 1px solid;
+	box-shadow:2px 2px 2px #585858;
 }
 
-#distanceOutput{
-	color:#000;
-	
-}
 .output{
 	margin:auto;
 	height:50px;
