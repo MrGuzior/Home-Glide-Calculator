@@ -4,7 +4,6 @@
 
 
 										// Getting the information
-import * from "gliderlist.js";
 
 		let glideRatio = 0;
 
@@ -37,29 +36,29 @@ import * from "gliderlist.js";
 		}
 
 													//Returning Values
-
+/*
 		function heightGliderReturn(event){
-			glideHeightReturn=event.value;
+			glideHeight=event.value;
 		}
 
 
 
 		function distanceGliderReturn(event){
-			glideDistanceReturn=event.value;
+			glideDistance=event.value;
 		}
 
 
 
 		function speedGliderReturn(event){
-			glideSpeedReturn=event.value;
+			glideSpeed=event.value;
 		}
 
 
 
 		function windGliderReturn(event){
-			glideWindReturn=event.value;
+			glideWind=event.value;
 		}
-
+*/
 ///
 										//Calculating information
 
@@ -77,6 +76,6 @@ import * from "gliderlist.js";
 		}
 										//Showing the results
 		function result(){
-		let result = document.getElementById("result")
+		let result = document.getElementById("result");
 		result.innerHTML = homeComing(glideRatio, glideHeight, glideDistance, result, homeHeight);
 		}
